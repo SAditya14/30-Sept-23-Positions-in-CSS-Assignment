@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .b1{
+            background-color: green;
+            position: relative;
+            z-index: 2;
+        }
+        .b2{
+            background-color: aqua;
+            position: relative;
+            left: 50px;
+            bottom: 50px;
+            z-index: 5;
+        }
+        .b3{
+            background-color: brown;
+            position: relative;
+            left: 100px;
+            bottom: 100px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+        <div class="box b1">B1</div>
+        <div class="box b2">B2</div>
+        <div class="box b3">B3</div>
+</body>
+</html>
+
+
+
+
+What is Z-Index?
+Z-Index basically tells the browser that in several layers which layers needs to be on top.
+Higher the Z-Index, that higher z-indexed page will be on top.
+Example for it can be the pop-up screen in websites.
+
